@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+
+    <style>
+
+body {
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+    </style>
+
+
+<style>
+
+
+    </style>
+
+  
+
+
+</head>
+<body>
+    
+
+
+    <CEnter><h1>Curriculum Vitae</h1></CEnter>  
+    <CEnter><img src="P1000340.JPG"></CEnter>
+    <CEnter><h3>Franco Fernández</h3></CEnter>
+    <CEnter><h5>Título: Lic. Seguridad e Higiene</h5></CEnter>
+
+
+    <img src="" alt="" class="">
+    
+
+<p>DATOS PERSONALES</p>
+
+<li>Nombre: Franco </li>
+<li>Apellido: Fernández</li>
+<li>Fecha de Nacimiento: 9/4/1990</li>
+<li>Estado Civil: Casado</li>
+<li>Lugar de Nacimiento: Comodoro Rivadavia</li>
+<li>DNI: 35.957.165</li>
+<li>Numero de Celular: 2916843201</li>
+
+<p>FORMACION Y ESTUDIOS</p>
+
+<li>2018-2022: Licenciatura en Seguridad e Higiene, Universidad FASTA.</li>
+
+<li>2010-2012: Técnico Superior en Seguridad, Higiene y Control Ambiental Industrial, Instituto Juan José Passo.</li>
+
+<li>2006-2007: Escuela de enseñanza media Nº10.</li>
+
+<li>2005: Escuela Superior de Comercio Prof. Prudencio Cornejo, dependiente de la UNS.</li>
+
+<p>CAPACITACIONES Y SEMINARIOS</p>
+
+<LI>2017: Diplomatura en Ergonomía dictada en la Universidad Tecnológica Nacional (UTN), con certificado habilitante.</LI>
+
+<LI>2013: Cursos de seguridad en planta dictados en la Universidad Tecnológica Nacional (UTN) de la ciudad de Bahía Blanca. Curso Básico, Curso Solvay-Indupa, Curso PBB Polisur y curso Cargill.</LI>
+   
+<li>2013: “Centros de Salud: Exposición a Agentes Transmitidos por Sangre y por Vías Respiratorias.” Dictado por Prevención ART.</li>
+
+<li>2012: “Primera Jornada de Seguridad, Higiene y Medio Ambiente”.Organizado por el Consorcio de Gestión del Puerto de Bahía Blanca. </li>
+
+<li>2012: “Jornadas Estado – Universidad – Empresa – Ambiente”.Dictado y organizado por la Municipalidad de Bahía Blanca.</li>
+
+<li>2011: “Prevención de riesgos laborales en la actividad de la industria”. Dictado por UART y coordinado por FISO.
+    </li>
+<li>2011: “Actualización normativa y Prevención de riesgos del trabajo”. Dictado por la Superintendencia de Riesgos del Trabajo y la Universidad Nacional del Sur.
+    </li>
+
+<p>DATOS COMPLEMENTARIOS</p>
+
+<LI>Excelente presencia.</LI>
+
+<li>Buena disposición para trabajar en grupo.</li>
+
+<li>Carnet de conducir clase B1: habilitante para conducir autos y camionetas/utilitarios.</li>
+
+<li>Disponibilidad horaria: full-time.</li>
+
+<li>Nivel de inglés: intermedio.</li>
+
+<p>INFORMATICA</p>
+
+<LI>Buen manejo de ordenador Windows.</LI>
+
+<li>Manejo de herramientas de oficina: Word, Excel, PowerPoint.</li>
+
+<li>Dominio de Internet y Sistemas de Gestión</li>
+
+
+
+
+<p>EXPERIENCIA LABORAL</p>
+
+    <li>Oiltanking Ebytem - Planta de recepcion, almacenamiento y bombeo de petroleo crudo - Puerto Rosales.</li>
+        
+    <li>Industrial SRL - Plantas Dow - Polo Petroquimico Bahia Blanca.</li>
+
+    <li>Andamios MAF Argentina - Polo Petroquimico Bahia Blanca.</li>
+
+    <li>Central Termoelectrica Guillermo Brown - General Daniel Cerri.</li>
+
+    <li>Refinéria Shell - Dock Sud (Buenos Aires).</li>
+
+    <li>Kapla Consultora. Trabajos de gestión, visitas a empresas y obras, capacitaciones, mediciones de ruido, puesta a tierra, iluminación, carga de fuego; cursos de manejo defensivo, manejo de autoelevadores y maquinas viales. Bahía Blanca y zona. 2017.</li>
+
+
+
+</body>
+</html> 
