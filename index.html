@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+
+    <style>
+
+body {
+    background-color: grey;
+    color: black;
+}
+
+div{
+    border: 1px solid grey;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}   
+
+fieldset{
+    margin-bottom: 12px;
+}   
+
+legend{
+    background-color: rgb(76, 76, 226);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}   
+
+img{
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 30px;
+    float: left;
+} 
+
+</style>
+
+</head>
+<body>
+    <h1>CURRICULUM VITAE</h1> 
+    <h3>Franco Fernández</h3>
+    <h5>Título: Lic. Seguridad e Higiene</h5>
+    <img src="file:///C:/Users/Fernandez/Desktop/foto%20cv.jpg" alt="IMAGEN FRANCO FERNANDEZ" width="250" height="250">
+
+<fieldset>
+<legend><u><p>DATOS PERSONALES</u></p></legend>
+
+<li>Nombre: Franco </li>
+<li>Apellido: Fernández</li>
+<li>Fecha de Nacimiento: 9/4/1990</li>
+<li>Estado Civil: Casado</li>
+<li>Lugar de Nacimiento: Comodoro Rivadavia</li>
+<li>DNI: 35.957.165</li>
+<li>Numero de Celular: 2916843201</li>
+</fieldset>
+
+<fieldset>
+<legend><strong><u><p>FORMACION Y ESTUDIOS</u></p></strong></legend>
+
+<li>2018-2022: Licenciatura en Seguridad e Higiene, Universidad FASTA.</li>
+<li>2010-2012: Técnico Superior en Seguridad, Higiene y Control Ambiental Industrial, Instituto Juan José Passo.</li>
+<li>2006-2007: Escuela de enseñanza media Nº10.</li>
+<li>2005: Escuela Superior de Comercio Prof. Prudencio Cornejo, dependiente de la UNS.</li>
+</fieldset>
+
+<fieldset>
+<legend><strong><u><p>CAPACITACIONES Y SEMINARIOS></u></p></strong></legend>
+
+<li>2017: Diplomatura en Ergonomía dictada en la Universidad Tecnológica Nacional (UTN), con certificado habilitante.</LI>
+<LI>2013: Cursos de seguridad en planta dictados en la Universidad Tecnológica Nacional (UTN) de la ciudad de Bahía Blanca. Curso Básico, Curso Solvay-Indupa, Curso PBB Polisur y curso Cargill.</LI>
+<li>2013: “Centros de Salud: Exposición a Agentes Transmitidos por Sangre y por Vías Respiratorias.” Dictado por Prevención ART.</li>
+<li>2012: “Primera Jornada de Seguridad, Higiene y Medio Ambiente”.Organizado por el Consorcio de Gestión del Puerto de Bahía Blanca. </li>
+<li>2012: “Jornadas Estado – Universidad – Empresa – Ambiente”.Dictado y organizado por la Municipalidad de Bahía Blanca.</li>
+<li>2011: “Prevención de riesgos laborales en la actividad de la industria”. Dictado por UART y coordinado por FISO.</li>
+<li>2011: “Actualización normativa y Prevención de riesgos del trabajo”. Dictado por la Superintendencia de Riesgos del Trabajo y la Universidad Nacional del Sur.</li>
+</fieldset>
+
+<fieldset>
+<legend><strong><u><p>DATOS COMPLEMENTARIOS</u></p></strong></legend>
+
+<LI>Excelente presencia.</LI>
+<li>Buena disposición para trabajar en grupo.</li>
+<li>Carnet de conducir clase B1: habilitante para conducir autos y camionetas/utilitarios.</li>
+<li>Disponibilidad horaria: full-time.</li>
+<li>Nivel de inglés: intermedio.</li>
+</fieldset>
+
+<fieldset>
+<legend><strong><u><p>INFORMATICA</u></p></strong></legend>
+
+<LI>Buen manejo de sistema Windows.</LI>
+<li>Manejo de herramientas de oficina: Word, Excel, PowerPoint.</li>
+<li>Dominio de Internet y Sistemas de Gestión</li>
+</fieldset>
+
+<fieldset>
+<legend><strong><u><p>EXPERIENCIA LABORAL</u></p></strong></legend>
+
+    <li>Oiltanking Ebytem - Planta de recepcion, almacenamiento y bombeo de petroleo crudo - Puerto Rosales.</li>
+    <li>Industrial SRL - Plantas Dow - Polo Petroquimico Bahia Blanca.</li>
+    <li>Andamios MAF Argentina - Polo Petroquimico Bahia Blanca.</li>
+    <li>Central Termoelectrica Guillermo Brown - General Daniel Cerri.</li>
+    <li>Refinéria Shell - Dock Sud (Buenos Aires).</li>
+    <li>Kapla Consultora. Trabajos de gestión, visitas a empresas y obras, capacitaciones, mediciones de ruido, puesta a tierra, iluminación, carga de fuego; cursos de manejo defensivo, manejo de autoelevadores y maquinas viales. Bahía Blanca y zona. 2017.</li>
+</fieldset>
+
+<fieldset>
+<form action=""method="post">
+<label>NOMBRE</label>
+<input type="text" name="NOMBRE" placeholder="INGRESE SU NOMBRE"/> 
+<label>APELLIDO</label>
+<input type="text" name="APELLIDO" placeholder="INGRESE SU APELLIDO"/> 
+<label>CONSULTA</label>
+<textarea name="CONSULTA" placeholder="INGRESE SU CONSULTA"></textarea>
+<label>EMAIL</label>
+<input type="email" id="email" name="email">
+<button type="button" onclick="enviarFormulario()">ENVIAR</button>
+</form>
+</fieldset>
+
+<script>
+function validarEmail(email) {
+    // Expresión regular para el formato del correo electrónico
+    var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+} 
+
+function enviarFormulario() {
+    var email = document.getElementById("email").value;
+    if (validarEmail(email)) {
+    alert ("EL CORREO ELECTRONICO ES VALIDO");
+} else {
+    alert ("EL CORREO ELECTRONICO ES INVALIDO");
+}
+}
+</script>
+
+</body>
+</htm>
